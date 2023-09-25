@@ -1,0 +1,108 @@
+/* ******************************************* */
+/* /****************750 px ********************** */
+@media (max-width:46.8em){  
+    /* .img-container{
+        height: 150vh;
+    } */
+    html{
+        font-size: 50%;
+    }
+    
+    .grid--col2{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+
+    header {
+        margin-bottom: 200px;
+    }
+
+    .user{
+        text-align: center;
+       
+    }
+
+    form{
+        justify-self: center;
+        
+    }
+
+   .weather{
+    justify-self: center;
+    width: 100%;
+   }
+
+   .temperature{
+    
+    justify-self: center;
+   }
+
+   .cards{
+    gap: 1px;
+    padding: 3rem;
+    justify-content: space-evenly;
+   }
+}
+/* ***************************************** */
+
+/* ******************************************* */
+/* /****************500 px ********************** */
+@media (max-width:31.25em){
+
+    /* html{
+        font-size:43.5% ;
+    } */
+
+    .primary-heading{
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .secondary-heading{
+        font-family: 500;
+        font-size: 1.8rem;
+    }
+
+    .teritory-heading{
+        font-size: 1.6rem;
+    }
+
+    /* .img-container{
+        height: 200vh;
+    } */
+
+    header{
+        margin-bottom: 50px;
+        
+    }
+
+    .content{
+        padding: 20px;
+    }
+    .content-body{
+        margin-bottom: 50px
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    .conditions{
+        gap: 20px;
+    }
+
+    
+    
+    .cards{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .factor-card:not(:last-child){
+        border-right: none;
+        border-bottom: none
+        /* padding-right: 3rem; */
+    }
+}
+/* ******************************************* */
+

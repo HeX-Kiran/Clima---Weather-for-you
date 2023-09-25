@@ -1,0 +1,162 @@
+@import url("general.css");
+/* ***************************************************** */
+/* *******************BackGround Image*************************** */
+
+.img-container{
+    background-image: url("../images/Weathers/ice-pellets.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    transition: all 0.5s ease-in;
+    
+}
+
+/* ***************************************************** */
+
+
+/* ***************************************************** */
+/* *******************Body Content*************************** */
+
+.content{
+    position: absolute;
+    top: 0;
+    /* transform: translateX(-50%); */
+    padding: 50px;
+    /* background-color: grey; */
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+
+/* Content header part */
+
+header{
+    margin-bottom: 20vh
+}
+
+.user .primary-heading{
+    color: #fff;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    gap: 20px;
+}
+
+
+input{
+    padding: 20px;
+    padding-right: 20rem;
+    background-color: rgba(255, 255, 255, 0.605);
+    border: none;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+input:focus{
+    outline: none;
+    font-size: 2rem;
+}
+
+
+
+ion-icon{
+   font-size: 3.2rem;
+   padding: 10px;
+    background-color: rgba(255, 255, 255, 0.201);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+ion-icon:hover{
+    font-size: 3.6rem;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.649);
+}
+
+/* Content Body part */
+
+.content-body{
+    margin-bottom: 20vh
+}
+
+.weather{
+    max-width: 550px;
+    background-color: rgba(255, 255, 255, 0.478);
+    color: #555;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.conditions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature{
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.523);
+    color: #555;
+    padding: 20px;
+    border-radius: 20px;
+    justify-self: end;
+}
+
+.temp{
+    text-align: center;
+}
+
+/* Content Footer */
+
+/* .body-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.body-footer{
+    margin-bottom: 5rem;
+}
+.cards{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.523);
+    color: #555;
+    border-radius: 20px;
+}
+.factor-card:not(:last-child){
+    border-right: 2px solid white;
+    padding-right: 3rem;
+}
+.factor-card h1{
+    margin-bottom: 5px;
+ }
+
+.factor-card p{
+   text-align: center;
+    
+}
+
+
+.factor-card .teritory-heading{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ***************************************************** */
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima - Weather for you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <script defer src="javascript/script.js"></script>
+</head>
+<body>
+    <!-- Back ground image -->
+    <section class="img-container"></section>
+
+    <!-- Body Content -->
+    <section class="content">
+        <!-- Header Bar -->
+        <header class="grid grid--col2">
+            <!-- User name -->
+            <div class="user ">
+                <h1 class="primary-heading">Hello,</h1>
+                <p class="secondary-heading">User</p>
+            </div>
+            <!-- Search Bar -->
+            <form action="">
+                <input type="text" placeholder="Delhi" >
+                
+                <ion-icon name="search-outline"></ion-icon>
+            </form>
+        </header>
+
+        <!-- body part -->
+        <div class="content-body grid grid--col2">
+            <div class="weather">
+                <div class="conditions">
+                    <img src="#" alt="weather condition icon" class="weather-icon">
+                    <span class="primary-heading weather-condition">Cloudy sunny</span>
+                </div>
+                <p class="place-day teritory-heading">New Delhi,Friday</p>
+            
+            </div>
+            <div class="temperature">
+                <h1 class="primary-heading temp">30&deg; C</h1>
+                <p class="teritory-heading date">July 1,11:45 AM</p>
+            </div>
+        </div>
+
+        <!--  Footer -->
+        <div class="body-footer">
+            <span class="cards">
+                <div class="factor-card">
+                    <h1 class="secondary-heading">Humidity</h1>
+                    <p><strong class="humidity teritory-heading">84%</strong></p>
+
+                </div>
+                <div class="factor-card">
+                    <h1 class="secondary-heading">Visibility</h1>
+                    <p><strong class="visibility teritory-heading">03 Km</strong></p>
+                </div>
+                <div class="factor-card">
+                    <h1 class="secondary-heading">Wind</h1>
+                    <p><strong class="wind teritory-heading">7.8 km/h</strong></p>
+                </div>
+            </span>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
