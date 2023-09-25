@@ -14,28 +14,28 @@ let data =
             "day": "Partly cloudy",
             "night": "Partly cloudy",
             "icon": 116,
-            "img" : "./images/Weathers/cloudy.jpg"
+            "img" : "./images/Weathers/cloudy.webp"
         },
         {
             "code": 1006,
             "day": "Cloudy",
             "night": "Cloudy",
             "icon": 119,
-            "img" : "./images/Weathers/cloudy.jpg"
+            "img" : "./images/Weathers/cloudy.webp"
         },
         {
             "code": 1009,
             "day": "Overcast",
             "night": "Overcast",
             "icon": 122,
-            "img" : "./images/Weathers/grey-cloud.jpg"
+            "img" : "./images/Weathers/grey-cloud.webp"
         },
         {
             "code": 1030,
             "day": "Mist",
             "night": "Mist",
             "icon": 143,
-            "img" : "./images/Weathers/mist.jpg"
+            "img" : "./images/Weathers/mist.webp"
         },
         {
             "code": 1063,
@@ -49,14 +49,14 @@ let data =
             "day": "Patchy snow possible",
             "night": "Patchy snow possible",
             "icon": 179,
-            "img" : "./images/Weathers/patchy-snow.jpg"
+            "img" : "./images/Weathers/patchy-snow.webp"
         },
         {
             "code": 1069,
             "day": "Patchy sleet possible",
             "night": "Patchy sleet possible",
             "icon": 182,
-            "img" : "./images/Weathers/patchy-sleet.jpg"
+            "img" : "./images/Weathers/patchy-sleet.webp"
         },
         {
             "code": 1072,
@@ -70,7 +70,7 @@ let data =
             "day": "Thundery outbreaks possible",
             "night": "Thundery outbreaks possible",
             "icon": 200,
-            "img" : "./images/Weathers/thunder-outbreak.jpg"
+            "img" : "./images/Weathers/thunder-outbreak.webp"
         },
         {
             "code": 1114,
@@ -126,7 +126,7 @@ let data =
             "day": "Heavy freezing drizzle",
             "night": "Heavy freezing drizzle",
             "icon": 284,
-            "img" : "./images/Weathers/blizzard.jpg"
+            "img" : "./images/Weathers/blizzard.webp"
         },
         {
             "code": 1180,
@@ -147,28 +147,28 @@ let data =
             "day": "Moderate rain at times",
             "night": "Moderate rain at times",
             "icon": 299,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1189,
             "day": "Moderate rain",
             "night": "Moderate rain",
             "icon": 302,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1192,
             "day": "Heavy rain at times",
             "night": "Heavy rain at times",
             "icon": 305,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1195,
             "day": "Heavy rain",
             "night": "Heavy rain",
             "icon": 308,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1198,
@@ -182,70 +182,70 @@ let data =
             "day": "Moderate or heavy freezing rain",
             "night": "Moderate or heavy freezing rain",
             "icon": 314,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1204,
             "day": "Light sleet",
             "night": "Light sleet",
             "icon": 317,
-            "img" : "./images/Weathers/patchy-sleet.jpg"
+            "img" : "./images/Weathers/patchy-sleet.webp"
         },
         {
             "code": 1207,
             "day": "Moderate or heavy sleet",
             "night": "Moderate or heavy sleet",
             "icon": 320,
-            "img" : "./images/Weathers/patchy-sleet.jpg"
+            "img" : "./images/Weathers/patchy-sleet.webp"
         },
         {
             "code": 1210,
             "day": "Patchy light snow",
             "night": "Patchy light snow",
             "icon": 323,
-            "img" : "./images/Weathers/patchy-snow.jpg"
+            "img" : "./images/Weathers/patchy-snow.webp"
         },
         {
             "code": 1213,
             "day": "Light snow",
             "night": "Light snow",
             "icon": 326,
-            "img" : "./images/Weathers/patchy-snow.jpg"
+            "img" : "./images/Weathers/patchy-snow.webp"
         },
         {
             "code": 1216,
             "day": "Patchy moderate snow",
             "night": "Patchy moderate snow",
             "icon": 329,
-            "img" : "./images/Weathers/patchy-snow.jpg"
+            "img" : "./images/Weathers/patchy-snow.webp"
         },
         {
             "code": 1219,
             "day": "Moderate snow",
             "night": "Moderate snow",
             "icon": 332,
-            "img" : "./images/Weathers/patchy-snow.jpg"
+            "img" : "./images/Weathers/patchy-snow.webp"
         },
         {
             "code": 1222,
             "day": "Patchy heavy snow",
             "night": "Patchy heavy snow",
             "icon": 335,
-            "img" : "./images/Weathers/blizzard.jpg"
+            "img" : "./images/Weathers/blizzard.webp"
         },
         {
             "code": 1225,
             "day": "Heavy snow",
             "night": "Heavy snow",
             "icon": 338,
-            "img" : "./images/Weathers/blizzard.jpg"
+            "img" : "./images/Weathers/blizzard.webp"
         },
         {
             "code": 1237,
             "day": "Ice pellets",
             "night": "Ice pellets",
             "icon": 350,
-            "img" : "./images/Weathers/ice-pellets.jpg"
+            "img" : "./images/Weathers/ice-pellets.webp"
         },
         {
             "code": 1240,
@@ -259,77 +259,77 @@ let data =
             "day": "Moderate or heavy rain shower",
             "night": "Moderate or heavy rain shower",
             "icon": 356,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1246,
             "day": "Torrential rain shower",
             "night": "Torrential rain shower",
             "icon": 359,
-            "img" : "./images/Weathers/moderate-rain.jpg"
+            "img" : "./images/Weathers/moderate-rain.webp"
         },
         {
             "code": 1249,
             "day": "Light sleet showers",
             "night": "Light sleet showers",
             "icon": 362,
-            "img" : "./images/Weathers/patchy-sleet.jpg"
+            "img" : "./images/Weathers/patchy-sleet.webp"
         },
         {
             "code": 1252,
             "day": "Moderate or heavy sleet showers",
             "night": "Moderate or heavy sleet showers",
             "icon": 365,
-            "img" : "./images/Weathers/patchy-sleet.jpg"
+            "img" : "./images/Weathers/patchy-sleet.webp"
         },
         {
             "code": 1255,
             "day": "Light snow showers",
             "night": "Light snow showers",
             "icon": 368,
-            "img" : "./images/Weathers/patchy-snow.jpg"
+            "img" : "./images/Weathers/patchy-snow.webp"
         },
         {
             "code": 1258,
             "day": "Moderate or heavy snow showers",
             "night": "Moderate or heavy snow showers",
             "icon": 371,
-            "img" : "./images/Weathers/blizzard.jpg"
+            "img" : "./images/Weathers/blizzard.webp"
         },
         {
             "code": 1261,
             "day": "Light showers of ice pellets",
             "night": "Light showers of ice pellets",
             "icon": 374,
-            "img" : "./images/Weathers/ice-pellets.jpg"
+            "img" : "./images/Weathers/ice-pellets.webp"
         },
         {
             "code": 1264,
             "day": "Moderate or heavy showers of ice pellets",
             "night": "Moderate or heavy showers of ice pellets",
             "icon": 377,
-            "img" : "./images/Weathers/patchy-sleet.jpg"
+            "img" : "./images/Weathers/patchy-sleet.webp"
         },
         {
             "code": 1273,
             "day": "Patchy light rain with thunder",
             "night": "Patchy light rain with thunder",
             "icon": 386,
-            "img" : "./images/Weathers/thunder-outbreak.jpg"
+            "img" : "./images/Weathers/thunder-outbreak.webp"
         },
         {
             "code": 1276,
             "day": "Moderate or heavy rain with thunder",
             "night": "Moderate or heavy rain with thunder",
             "icon": 389,
-            "img" : "./images/Weathers/thunder-outbreak.jpg"
+            "img" : "./images/Weathers/thunder-outbreak.webp"
         },
         {
             "code": 1279,
             "day": "Patchy light snow with thunder",
             "night": "Patchy light snow with thunder",
             "icon": 392,
-            "img" : "./images/Weathers/thunder-outbreak.jpg"
+            "img" : "./images/Weathers/thunder-outbreak.webp"
         },
 
         {
@@ -337,7 +337,7 @@ let data =
             "day": "Moderate or heavy snow with thunder",
             "night": "Moderate or heavy snow with thunder",
             "icon": 395,
-            "img" : "./images/Weathers/thunder-outbreak.jpg"
+            "img" : "./images/Weathers/thunder-outbreak.webp"
         }
     ]
 

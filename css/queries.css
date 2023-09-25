@@ -110,3 +110,55 @@
 }
 /* ******************************************* */
 
+/* ******************************************* */
+/* /****************500 px ********************** */
+@media (max-width:25em){
+
+    /* html{
+        font-size:43.5% ;
+    } */
+
+    .primary-heading{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .secondary-heading{
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .teritory-heading{
+        font-size: 1.4rem;
+    }
+
+    .img-container{
+        height: 120vh;
+    }
+
+    header{
+        margin-bottom: 50px;
+        
+    }
+
+    input {
+        
+        padding-right: 10rem;
+        
+       
+    }
+
+    .weather {
+        max-width: 300px;
+        
+        padding: 10px;
+       
+    }
+
+    
+    
+    
+    
+}
+/* ******************************************* */
+
