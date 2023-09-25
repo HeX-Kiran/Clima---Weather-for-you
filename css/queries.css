@@ -59,8 +59,8 @@
     }
 
     .secondary-heading{
-        font-family: 500;
-        font-size: 1.8rem;
+        font-weight: 500;
+        font-size: 2rem;
     }
 
     .teritory-heading{
@@ -96,8 +96,12 @@
     .cards{
         flex-direction: column;
         gap: 30px;
+        max-width: 300px;
+        align-items: center;
+        justify-content: center;
     }
 
+    
     .factor-card:not(:last-child){
         border-right: none;
         border-bottom: none
